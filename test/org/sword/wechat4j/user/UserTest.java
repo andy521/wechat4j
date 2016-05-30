@@ -49,7 +49,7 @@ public class UserTest {
 	 */
 	@Test
 	public void getUserInfo(){
-		String openId = "otweTt8vRASrS-zji8v4YSStH-cc";
+		String openId = "oqBsOv2KnOd01KF6Hd2WGG2GBhLk";
 		User user = manager.getUserInfo(openId);
 		System.out.println(user.toString());
 		user = manager.getUserInfo(openId,LanguageType.en);
